@@ -1,0 +1,17 @@
+## Changelog to master branch 20210525 ##
+I cleaned up the master branch. The changes are not affecting your local branches if you don't take an action. Although you can easily sync it if you didn'y deviate from the master. If you did add something (for example Sri did) you can ask me how to merge or rebase (first rebase and then push).
+
+>Deleted my_quarternion_pkg
+# I don't know where this came from, it doesn't look like it does anything at all at the moment. Please let me know if you know.
+
+>Deleted panda_joint_reader
+# This was for the tutorial so unnecessary.
+
+>Deleted franka_ros
+# I assume it is the package provided by Gerlach. Everybody should have it already, no need to version control it.
+# @Aish : Was this a simple renaming from the franka_ros-simulation we got from Gerlach? Or was there more. A simple script I wrote didn't find any changes on the source code but I can't guarantee the success of the script. So wanted to ask you.
+
+*A small tip if you read so far:
+Next time you use git from terminal run
+$ git config credential.helper store
+to save up your credentials so that GitLab doesn't ask you all the time. Cheers.
